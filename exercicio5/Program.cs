@@ -22,3 +22,4 @@ combustivel = float.Parse(Console.ReadLine());
 consumo = distancia / combustivel;
 
 Console.WriteLine("O consumo medio de um automovel é " + consumo);
+
