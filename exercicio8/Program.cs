@@ -11,6 +11,6 @@ float c = float.Parse(Console.ReadLine());
 
 float f = (9 * c + 160) / 5;
 
-Console.WriteLine("A temperatura em Celsius convertida para Fahrenheit" + f);
+Console.WriteLine("A temperatura em Celsius convertida para Fahrenheit " + f);
 
 
