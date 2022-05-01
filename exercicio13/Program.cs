@@ -18,5 +18,9 @@ double precoCustoBicicleta = double.Parse(Console.ReadLine());
 Console.Write("Quantas bicicletas foram vendidas por esse vendedor? ");
 double quantidadeVendasBike = double.Parse(Console.ReadLine());
 
+double precoTotalBicicleta = 0.5 * precoCustoBicicleta + precoCustoBicicleta;
+double totalGanhoBiciletaVendidas = precoTotalBicicleta * quantidadeVendasBike;
+double salarioEmpregado = (salarioMinimo * 2) + (0.15 * totalGanhoBiciletaVendidas);
 
+Console.Write("O salário do empregado é R$: " + salarioEmpregado);
 
